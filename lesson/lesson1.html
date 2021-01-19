@@ -39,6 +39,14 @@
         .bar-graph div:nth-child(5) {
             background: linear-gradient(to bottom, transparent 32%, #37c 0, #37c 63%, #3c7 0);
         }
+
+        .pie-graph{
+            display: inline-block;
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            background: conic-gradient(#37c 30deg, #3c7 30deg, #3c7 65deg, orange 65deg, orange 110deg, #f73 110deg, #f73 200deg, #ccc 200deg);
+        }
     </style>
 </head>
 <body>
@@ -49,5 +57,6 @@
     <div></div>
     <div></div>
 </div>
+<div class="pie-graph"></div>
 </body>
 </html>
